@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>QVAC OpenMOSS audio demo</title>
+<link rel="icon" href="assets/qvac-favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="bar">
+  <img class="logo" src="assets/qvac-wordmark.svg" alt="QVAC" width="88" height="10">
+  <h1>OpenMOSS audio</h1>
+  <span class="grow"></span>
+  <span class="chip" id="engine">Nothing loaded</span>
+  <span class="chip">On this computer</span>
+</header>
+
+<main>
+  <nav aria-label="Features">
+    <ul id="list"></ul>
+    <img class="badge" src="assets/built-with-qvac-dark-mode-landscape-transparent.svg" alt="Built with QVAC" width="160">
+  </nav>
+  <section id="panel" aria-live="polite"></section>
+</main>
+
+<div class="toast" id="toast" role="alert" hidden></div>
+
+<script src="app.js"></script>
+</body>
+</html>
